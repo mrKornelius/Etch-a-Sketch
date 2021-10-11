@@ -3,22 +3,30 @@ body {
     color: #666;
 }
 
+.header {
+    font-size: 48px;
+    text-align: center;
+}
+.gridSettings {
+    text-align: center;
+}
+
 button {
     background-color: #555;
     color: #222;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.sketch {
+    border: 5px solid black;
 }
 
 .row {
     display: flex;
 }
-
-.cell {
-    width: 20px;
-    height: 20px;
-}
-
-
-/* 
-* {
-    border: 1px solid red;
-} */
